@@ -42,7 +42,7 @@ function App() {
       api
         .checkToken(token)
         .then((res) => {
-          console.log(res)
+          //console.log(res)
           api.setToken(token);
           setEmail(res.email);
           setIsLoggedIn(true);
