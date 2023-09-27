@@ -139,7 +139,7 @@ class Api {
   }
   }
   // Замените на адрес вашего бэкенда
-  const api = new Api('api.psevdo.nomoredomainsrocks.ru');
+  const api = new Api('http://api.psevdo.nomoredomainsrocks.ru');
   
   export default api;
   
